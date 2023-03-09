@@ -10,5 +10,24 @@ public class App {
         {
             i++;
         }
+
+        int[] array = {4,8,7,0,5};
+        int y=0;
+        for(; y<array.length; )
+        {
+            System.out.println("Avec le for classic " + array[y]);
+            y++;
+        }
+
+        int[] arr = new int[5];
+        arr[0] = 3;
+        arr[1] = 5;
+        arr[2] = 8;
+        arr[3] = 81;
+        arr[4] = 47;
+        for (int element : arr) {
+            System.out.println("Avec le foreach " + element);
+        }
+        
     }
 }
